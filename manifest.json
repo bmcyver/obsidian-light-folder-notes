@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-light-folder-notes",
+  "name": "Light Folder Notes",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.7",
+  "description": "Ultra lightweight folder note plugin for Obsidian.",
+  "author": "bmcyver",
+  "authorUrl": "https://github.com/bmcyver",
+  "isDesktopOnly": false
+}

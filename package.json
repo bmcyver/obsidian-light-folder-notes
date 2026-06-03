@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-light-folder-notes",
+  "version": "1.0.0",
+  "description": "Ultra lightweight folder note plugin for Obsidian.",
+  "author": "bmcyver",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "lint": "eslint .",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "esbuild": "0.28.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-obsidianmd": "0.3.0",
+    "globals": "17.6.0",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "8.60.0"
+  },
+  "dependencies": {
+    "obsidian": "latest"
+  }
+}

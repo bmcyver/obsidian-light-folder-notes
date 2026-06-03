@@ -1,0 +1,14 @@
+.nav-files-container .fn-hidden-file {
+  display: none !important;
+}
+
+/* Default styling: color applied to parent so it can be easily overridden by css.css */
+.nav-folder-title.has-folder-note {
+  color: var(--interactive-accent);
+}
+
+.nav-folder-title.has-folder-note .nav-folder-title-content {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;
+}
