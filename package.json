@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Ultra lightweight folder note plugin for Obsidian.",
   "author": "bmcyver",
+  "private": true,
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -21,9 +22,7 @@
     "globals": "17.6.0",
     "prettier": "^3.8.3",
     "typescript": "^6.0.3",
-    "typescript-eslint": "8.60.0"
-  },
-  "dependencies": {
+    "typescript-eslint": "8.60.0",
     "obsidian": "latest"
   }
 }
