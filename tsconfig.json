@@ -1,19 +1,16 @@
 {
   "compilerOptions": {
-    "inlineSourceMap": true,
-    "inlineSources": true,
+    "target": "ESNext",
     "module": "ESNext",
-    "target": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["DOM", "ESNext"],
+    "rootDir": "./src",
     "strict": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
-    "moduleResolution": "bundler",
+    "allowJs": true,
     "isolatedModules": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true,
-    "lib": ["ESNext", "DOM"]
+    "importHelpers": true
   },
   "include": ["src/**/*.ts"]
 }
