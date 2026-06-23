@@ -12,6 +12,9 @@ export default defineConfig(
         project: true,
       },
     },
+    rules: {
+      'obsidianmd/ui/sentence-case': 'off',
+    },
   },
-  globalIgnores(['dist/**', 'node_modules/**', '*.json', '*.mts', 'main.js']),
+  globalIgnores(['dist/**', 'node_modules/**', '*.json', '*.mjs', 'main.js']),
 );
